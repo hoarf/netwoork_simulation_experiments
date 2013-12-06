@@ -1,0 +1,13 @@
+#Exemplo
+[acao] [tempo] [nodo_origem] [nodo_destino] cbr [tamanho] ------- [id_fluxo] 0.0 3.0 0 0
+- 0.1 0 2 cbr 500 ------- 0 0.0 3.0 0 0
+- 0.1 0 2 cbr 500 ------- 0 0.0 3.0 0 0
+
+
+ r: recepção de pacote;
+ +: pacote foi colocado na fila;
+ -: pacote foi retirado da fila;
+ h: pacote passa por um ponto intermediário (hop);
+ d: pacote é descartado.
+
+FTPUNICO.TCL
